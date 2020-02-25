@@ -8,7 +8,7 @@ export const fetchShow = () => {
   return axios
     .get(url)
     .then(res => {
-      return res.data;
+      return res;
     })
     .catch(err => {
       return err;
